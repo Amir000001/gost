@@ -1,0 +1,124 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#content{
+	width:1200px;
+	margin:10px auto;
+	background:#FFF7E5;
+	border:1px solid black;
+}
+
+td{
+	padding:5px;
+}
+
+.name{
+	width:250px;
+}
+
+.message{
+	width:800px;
+}
+
+#textarea{
+	width:500px;
+	height:100px;
+	resize: none;
+	margin:5px 0 10px;
+}
+
+.formInput{
+	width:300px;
+	margin:5px 0 10px;
+}
+
+#formSabmit{
+	width:730px;
+	margin:10px auto;
+}
+
+.submit{
+	width:100px;
+	height:30px;
+	margin-bottom:10px;
+}
+
+.submit1{
+	width:100px;
+	height:30px;
+	margin-bottom:10px;
+}
+
+.search{
+	width:100px;
+	height:30px;
+	margin-bottom:10px;
+}
+
+.str{
+	width:400px;
+	height:40px;
+	float:left;
+	line-height:40px;
+	margin-bottom: 10px;
+	margin-left:55px;
+}
+.str ul{
+	margin:0;
+	padding:0 20px;
+	height:30px;
+	//background:green;
+	line-height:30px;
+}
+.str li{
+	display:inline-block;
+	font-size:18px;
+	width:30px;
+	height:30px;
+	background:#E6E6E6;
+	color:#000;
+	text-align:center;
+	margin:0 1px;
+	border:1px solid #C4C4C4;
+}
+.str li:hover{
+	background:#FFF7E5;
+	border:1px solid #000;
+	cursor:pointer;
+}
+.str li.active{
+	background:#ff6666;
+	color:#fff;
+	border:1px solid #C4C4C4;
+	cursor:pointer;
+}
+
+.formIn{
+	display:none;
+}
+
+header{
+	height:100px;
+	background:#E6FFF5;
+	border-bottom:1px solid black;
+	text-align:center;
+	line-height:100px;
+	margin-bottom:30px;
+}
+
+footer{
+	height:50px;
+	width:100%;
+	background:#E6FFF5;
+	border-top:1px solid black;
+	text-align:center;
+	line-height:50px;
+	float:left;
+}
+
+footer p{
+	width:100%;
+	margin:auto;
+}
